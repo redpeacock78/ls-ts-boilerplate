@@ -10,7 +10,6 @@
     "prettier"
   ],
   "rules": {
-    "no-undef": "off",
     "@typescript-eslint/ban-ts-comment": "off"
   }
 }
