@@ -1,0 +1,16 @@
+{
+  "include": [
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+  "compilerOptions": {
+    "outDir": "dist/",
+    "module": "commonjs",
+    "target": "ESnext",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
+  }
+}
