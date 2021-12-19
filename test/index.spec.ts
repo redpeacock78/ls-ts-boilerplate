@@ -10,7 +10,8 @@ describe('index', (): void => {
       [-1, 2, 1],
       [0, 10, 10],
     ])('calculate %i + %i', (a: number, b: number, expected: number): void => {
-      expect(sum(a, b)).toBe(expected);
+      const result: number = sum(a)(b);
+      expect(result).toBe(expected);
     });
   });
 });
