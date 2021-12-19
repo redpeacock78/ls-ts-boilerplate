@@ -1,5 +1,4 @@
-// @ts-ignore
-import { sum } from '../src/index';
+import { sum } from '../src/index.ls';
 
 describe('index', (): void => {
   describe('sum', (): void => {
