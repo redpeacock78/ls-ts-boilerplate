@@ -14,5 +14,5 @@ $ yarn test
 ### Lint
 Run eslint.
 ```console
-$ yarn lint --fix
+$ yarn lint
 ```
