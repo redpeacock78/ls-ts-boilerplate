@@ -1,1 +1,1 @@
-export sum = (n, m) -> n + m
+export sum = (n, m) --> n + m
