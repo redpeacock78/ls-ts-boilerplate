@@ -24,11 +24,14 @@
     "livescript-jest": "^0.2.0",
     "ls-lint": "^0.1.2",
     "prettier": "^2.5.1",
+    "textlint": "^12.1.0",
+    "textlint-plugin-jsx": "^1.1.2",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "ts-jest": "^27.1.2"
   },
   "jest": {
     "testEnvironment": "node",
-    "coverageProvider": "v8",
     "transform": {
       "^.+\\.ls$": "livescript-jest",
       "^.+\\.(j|t)sx?": "ts-jest"
