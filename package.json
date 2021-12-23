@@ -7,7 +7,8 @@
   "scripts": {
     "build": "lsc -cbo dist src",
     "test": "jest",
-    "lint": "ls-lint 'src/**/*.ls?(on)' && eslint 'test/**/*.[tj]s'"
+    "lint": "ls-lint 'src/**/*.ls?(on)' && eslint 'test/**/*.[tj]s && textlint *'",
+    "lint-fix": "eslint --fix 'test/**/*.[tj]s' && textlint --fix *"
   },
   "dependencies": {
     "livescript": "^1.6.0",
